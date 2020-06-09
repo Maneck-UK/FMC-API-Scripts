@@ -12,7 +12,7 @@ Use of these scripts is entirely at your own risk.
 Scripts
 post-csv-hosts-070620.py
 creates network host objects for use in FMC policies via API POST operation
-set up to call the csv filneame during script input e.g.:py post-csv-hosts-070620.py <hosts2post>.csv
+set up to call the csv filename during script input e.g.:py post-csv-hosts-070620.py <hosts2post>.csv
 see sample csv file post2hosts.csv
 
 get-hosts-for-csv-070620.py
