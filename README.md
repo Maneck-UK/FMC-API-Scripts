@@ -5,7 +5,7 @@ This repository contains scripts written in python that interact with the Cisco 
 I am making the scripts available to say thanks to all those that helped me gain the knowledge required to get them to work.
 
 I built and ran the scripts in notepad++ using python 3.8.2.
-I have used these scripts on a production environment, firstly on FMC 6.4.x and then of 6.5.x. So they work as I intended for my use, this may not always be ideal for everyone. Please test them before they are used on a production environment.
+I have used these scripts on a production environment, firstly on FMC 6.4.x and then on 6.5.x. So they work as I intended for my use, this may not always be ideal for everyone. Please test them before they are used on a production environment.
 
 Use of these scripts is entirely at your own risk.
 
