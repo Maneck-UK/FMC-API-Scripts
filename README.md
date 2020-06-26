@@ -12,13 +12,12 @@ Use of these scripts is entirely at your own risk.
 Scripts
 post-csv-hosts-070620.py
 creates network host objects for use in FMC policies via API POST operation
-set up to call the csv filename during script input e.g.:py post-csv-hosts-070620.py <hosts2post>.csv
-see sample csv file post2hosts.csv
+set up to call the csv filename during script input e.g.:py post-csv-hosts-070620.py <hosts2post>.csv.
+see sample csv file hosts2post.csv.
 
 get-hosts-for-csv-070620.py
 collects all network host objects in FMC via API GET operation
-option 1 places the GET data in a text file and includes the Object ID which is required to delete an object 
+option 1 places the GET data in a text file and includes the Object ID which is required to delete an object .
 
 delete-hosts-from-csv-070620.py
-after removing any hosts you do not want to delete from the GEThosts file and changing the file name to .csv you will have the prerequisite file to delete all the host objects in the csv from FMC via API DELETE operation
-the script currently 
+This script deletes hosts from FMC via API DELETE operation. You need to ID the hosts by UUID, use get hosts for csv script above to collect the UUID. After removing any hosts you do not want to delete from the GET hosts file and changing the file name to .csv you will have the prerequisite file to delete all the host objects in the csv .
